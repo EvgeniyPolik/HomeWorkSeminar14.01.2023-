@@ -10,7 +10,7 @@ try
     }
     else
         throw new ArgumentException();
-    Console.WriteLine($"Результат уаления второй цифры из {str} это: {result}");
+    Console.WriteLine($"Результат удаления второй цифры из {str} это: {result}");
 }
 catch
 {
