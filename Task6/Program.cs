@@ -3,7 +3,7 @@ try
 {
     var str = (Console.ReadLine() ?? "");
     int result;
-    if (str.Length == 3)
+    if (str.Length == 3)  // Убедимся что введено имено трехзначное число
     {
         int number = int.Parse(str);
         result = number / 10;
