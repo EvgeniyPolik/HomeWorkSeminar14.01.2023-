@@ -1,8 +1,9 @@
 ﻿Console.Write("Введите число: ");
+var str = Console.ReadLine() ?? "";
 try
 {
-    var number = int.Parse(Console.ReadLine().Substring(2) ?? "");
-    Console.WriteLine(number);
+    var number = int.Parse(str.Substring(2));
+    Console.WriteLine($"Третья цифра числа {str} это {number}");
 }
 catch
 {

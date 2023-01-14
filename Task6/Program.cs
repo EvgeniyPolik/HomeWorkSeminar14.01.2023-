@@ -11,7 +11,7 @@ try
     }
     else
         throw new ArgumentException();
-    Console.WriteLine(result);
+    Console.WriteLine($"Вторая цифра числа {str} это: {result}");
 }
 catch
 {
